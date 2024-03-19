@@ -1,0 +1,101 @@
+:root {
+    --color-primary: #d6a444;
+    --color-secondary: #c1c730;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100vh;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-primary);
+}
+
+
+h1 {
+    margin: 0;
+    text-align: center;
+    padding: 24px;
+}
+
+.space-ship, .image {
+    border: 5px solid #a71313 ;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff090;
+}
+    
+nav, ul {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav, a {
+    background-color: #a71313;
+    border-radius: 5%;
+    padding: 8px 16px;
+}
+    
+nav, ul, li{
+    padding: 5px;
+    list-style: none;
+    margin: auto;
+}
+    
+nav, ul, a:hover {
+    background-color: var(--color-primary);
+}
+    
+.voy-menu:hover {
+    background-color: #c1c730;
+}
+
+    
+.next-menu:hover {
+    background-color: #2b53a7;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+
+.nextgen-text, .voyager-text,  .home-text{
+    text-align: center;
+    padding: 40px;
+    font-size: 24px;
+}
+
+.characters {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+}
+
+footer {
+    text-align: center;
+    display: block;
+}
+
+
+
+
+

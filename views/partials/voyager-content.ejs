@@ -1,0 +1,10 @@
+<body>
+    <% if(locals.characters) { %>
+        <% characters.forEach(char => { %>
+        <p><a class="voy-menu" href="/voyager/<%= char.lastName.toLowerCase() %>">
+            <%= char.firstName %> 
+            <%= char.lastName %>
+        </a></p>
+        <% }) %>
+    <% } %> 
+</body>
